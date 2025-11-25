@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# 🌟 Study Tracker – Build Consistency, One Day at a Time
 
-## Project info
+A simple and effective Study Tracking application that helps users to know about their completion of thier potion and topic of sbject and visualize progress.
 
-**URL**: https://lovable.dev/projects/99de14ef-e54b-4de7-9cb2-052b22ff79d1
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 📅 Add & manage subject and its topic  
+- 📊 Track progress with charts  
+- 📆 Calendar-based daily check-in  
+- 🔄 Auto-calculated daily & weekly progress  
+- 🕒 Lightweight, fast & clean UI  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/99de14ef-e54b-4de7-9cb2-052b22ff79d1) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React.js  
+- **Backend:** Node.js / Express  
+- **Database:** MongoDB  
+- **Charts:** Recharts / Chart.js  
+- **Styling:** Tailwind CSS  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Project Structure
 
-Follow these steps:
+```
+study-tracker/
+│── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── ...
+│
+│── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── ...
+│
+└── README.md
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Clone the repo
+```bash
+git clone https://github.com/SagarDevop/Study_Tracker.git
+cd Study_Tracker
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Install dependencies
+**Frontend**
+```bash
+cd frontend
+npm install
+npm start
+```
+
+**Backend**
+```bash
+cd backend
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧠 How It Works
 
-**Use GitHub Codespaces**
+1. Add habits for the day  
+2. Click checkboxes for each date  
+3. Tracker stores completion data  
+4. End-of-day progress chart updates automatically  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📈 Charts & Progress
 
-This project is built with:
+- Daily progress    
+- Subject-wise analytics  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧑‍💻 Author
 
-Simply open [Lovable](https://lovable.dev/projects/99de14ef-e54b-4de7-9cb2-052b22ff79d1) and click on Share -> Publish.
+**SagarDevop**  
+GitHub: https://github.com/SagarDevop
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⭐ Support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+If you like it, don't forget to ⭐ star the repo!
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
