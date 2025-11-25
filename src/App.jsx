@@ -6,7 +6,17 @@ import Dashboard from './pages/Dashboard';
 import SubjectDetail from './pages/SubjectDetail';
 import AddSubjectModal from './components/AddSubjectModal';
 
-const AppContent = () => {
+const App = () => {
+  return (
+    <BrowserRouter>
+      <ProgressProvider>
+        <AppLayout />
+      </ProgressProvider>
+    </BrowserRouter>
+  );
+};
+
+const AppLayout = () => {
   const [isAddSubjectOpen, setIsAddSubjectOpen] = useState(false);
   const { addSubject } = useProgress();
 
@@ -29,16 +39,6 @@ const AppContent = () => {
         onAdd={handleAddSubject}
       />
     </div>
-  );
-};
-
-const App = () => {
-  return (
-    <BrowserRouter>
-      <ProgressProvider>
-        <AppContent />
-      </ProgressProvider>
-    </BrowserRouter>
   );
 };
 
